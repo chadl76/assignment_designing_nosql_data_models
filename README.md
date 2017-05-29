@@ -47,3 +47,22 @@ Intermediate
     time_available: date,
   }
 }
+
+2. University
+   {
+      userid: int,
+      username: string,
+      email: string,
+      logged_in: boolean,
+      semester {
+        class {
+          enrolled: boolean,
+          name: string,
+          grade: char, 
+    
+      }
+   }
+
+ Advanced
+
+ 1.
