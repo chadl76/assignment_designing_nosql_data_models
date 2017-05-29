@@ -65,4 +65,45 @@ Intermediate
 
  Advanced
 
- 1.
+ 1. eCommerce
+  {
+    product_id: int,
+    quantity: int,
+    product_info {
+      name: string,
+      description: string,
+      dept: string,
+    }
+    reciept {
+      product_id: int,
+      quantity_sold: int, 
+    }
+  }
+
+
+ 2. Activity Feed
+
+ 	{
+ 	user_id: int,
+ 	user_name: string,
+ 	profile {
+ 	  name: string,
+ 	  email: string,
+ 	  dob: date,
+
+ 	}
+ 	friends: array,
+
+ 	posts {
+ 	  post_id: int,
+ 	  name: string,
+ 	  body: text,
+ 	}
+ 	comments {
+ 	  comment_id: int,
+ 	  post_id: int,
+ 	  body: text
+
+ 	}
+
+ 	}
